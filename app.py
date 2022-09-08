@@ -3,7 +3,7 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "c5cad447",
+   "id": "40e720b3",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -19,7 +19,7 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "a9a7381a",
+   "id": "505480ec",
    "metadata": {},
    "outputs": [
     {
@@ -46,7 +46,7 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "c07321bc",
+   "id": "e2d25782",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -60,7 +60,7 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "225b9d26",
+   "id": "f39205f9",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -76,7 +76,7 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "b102ef40",
+   "id": "3de931c7",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -96,7 +96,7 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "717674a3",
+   "id": "bc0450fa",
    "metadata": {},
    "outputs": [
     {
@@ -115,9 +115,28 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "3ba3a470",
+   "id": "67c84612",
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " * Serving Flask app \"__main__\" (lazy loading)\n",
+      " * Environment: production\n",
+      "\u001b[31m   WARNING: This is a development server. Do not use it in a production deployment.\u001b[0m\n",
+      "\u001b[2m   Use a production WSGI server instead.\u001b[0m\n",
+      " * Debug mode: off\n"
+     ]
+    },
+    {
+     "name": "stderr",
+     "output_type": "stream",
+     "text": [
+      " * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)\n"
+     ]
+    }
+   ],
    "source": [
     "if __name__ == \"__main__\":\n",
     "    app.run()"
@@ -126,7 +145,7 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "21a60ba2",
+   "id": "4720bb37",
    "metadata": {},
    "outputs": [],
    "source": []
